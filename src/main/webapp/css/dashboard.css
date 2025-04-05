@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+input, button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.logout-link {
+    color: blue;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: green;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.nav-links li {
+    font-weight: normal;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+.nav-links a:hover {
+    color: green;
+}
+
+/* Dropdown menu - Hidden by default */
+.dropdown {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden initially */
+    padding: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown li {
+    width: 100%;
+}
+
+.dropdown li a {
+    padding: 8px 15px;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown li a:hover {
+    background: lightgray;
+}
+
+/* Show dropdown when active */
+.menu-dropdown.active .dropdown {
+    display: block;
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Dashboard Header */
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Profile Image */
+img {
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+
+/* Profile Information */
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Logout Link */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

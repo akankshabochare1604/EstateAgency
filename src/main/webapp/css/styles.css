@@ -1,0 +1,165 @@
+@charset "UTF-8";
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('https://source.unsplash.com/1600x900/?real-estate,city') no-repeat center center/cover;
+    backdrop-filter: blur(5px);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar Background */
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: green;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.nav-links li {
+    font-weight: normal;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+.nav-links a:hover {
+    color: green;
+}
+
+/* Dropdown Styling */
+.nav-links li ul {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 0;
+    min-width: 150px;
+}
+
+.nav-links li ul li {
+    width: 100%;
+}
+
+.nav-links li ul li a {
+    padding: 8px 15px;
+    display: block;
+    white-space: nowrap;
+}
+
+.nav-links li ul li a:hover {
+    background: lightgray;
+}
+
+/* Show dropdown on hover */
+.nav-links li:hover ul {
+    display: block;
+}
+
+
+.carousel-item img {
+    margin: 20px; /* Margin from all four sides */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
+    height: 600px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fills the space properly */
+}
+
+.container-fluid{
+	color:black;
+}
+.services-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.service-card {
+    width: 280px; /* Adjust width */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.service-icon img {
+    width: 30px;
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 14px;
+    color: #555;
+}
+.footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+        .footer .contact-info {
+            margin-bottom: 20px;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        
